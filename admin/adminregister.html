@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Registration</title>
+  <link rel="stylesheet" href="css/registyle.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Admin Registration</h2>
+      <form action="adminregister.php" method="POST">
+        <div class="textbox">
+          <input type="text" placeholder="Username" name="username" required>
+        </div>
+        <div class="textbox">
+          <input type="email" placeholder="Email" name="email" required>
+        </div>
+        <div class="textbox">
+          <input type="password" placeholder="Password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Register</button>
+      </form>
+      <div class="login-link">
+        <p>Already have an account? <a href="adminlogin.html">Login here</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
